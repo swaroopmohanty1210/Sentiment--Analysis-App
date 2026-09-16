@@ -8,6 +8,7 @@ from nltk.corpus import stopwords
 
 nltk.download("punkt", quiet=True)
 nltk.download("stopwords", quiet=True)
+nltk.download("punkt_tab",quiet=True)
 
 # laod files
 with open ("tfidf_vectorizer.pkl", "rb") as f:
